@@ -11,14 +11,14 @@ Ensure that either the CLR or CoreCLR is installed, then run the following comma
 
 ```dnu restore```
 
-## Execution
+### Execution
 Once setup, to run the sample, use
 
 ```dnx run```
 
 Please note that this will eat up all your memory available.
 
-## Build
+### Build
 
 ```dnu build```
 
