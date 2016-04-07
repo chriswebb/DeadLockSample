@@ -1,0 +1,24 @@
+﻿{
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+  "commands": {
+    "deadlock-test": "DeadLockSample"
+  },
+  "dependencies": {
+  },
+  "frameworks": {
+    "dnx461": {
+      "dependencies": {
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23409",
+        "System.Threading.Thread": "4.0.0-beta-23409",
+        "System.Threading.ThreadPool": "4.0.10-beta-23409",
+        "System.Runtime": "4.0.21-beta-23409"
+      }
+    }
+  }
+}
